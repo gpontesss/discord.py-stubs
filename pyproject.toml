@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "discord.py-stubs"
-version = "1.7.4dev0"
+version = "2.0.0dev"
 description = "discord.py stubs"
 homepage = "https://github.com/bryanforbes/discord.py-stubs"
 authors = ["Bryan Forbes <bryan@reigndropsfall.net>"]
@@ -16,8 +16,8 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6.2"
-"discord.py" = "~1.7.0"
+python = "^3.8"
+"discord.py" = {git = "https://github.com/Rapptz/discord.py.git"}
 mypy = ">=0.800"
 typing-extensions = "^3.7.4"
 
